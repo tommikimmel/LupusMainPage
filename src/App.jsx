@@ -12,7 +12,7 @@ import Contacto from './components/sections/contact.jsx';
 function App() {
   useEffect(() => {
     AOS.init({
-      duration: 800, // duración de la animación (en ms)
+      duration: 600, // duración de la animación (en ms)
       once: false,    // si querés que se ejecute solo una vez
       offset: 80,   // cuándo empieza la animación (en px antes de entrar)
       easing: 'ease-in-out', // curva de animación
