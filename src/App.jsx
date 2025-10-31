@@ -19,13 +19,13 @@ function App() {
     });
   }, []);
   return (
-    <>
+    <div className="overflow-hidden">
       <Header />
       <Hero />
       <About />
       <Contacto />
       <Footer />
-    </>
+    </div>
   )
 }
 
