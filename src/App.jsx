@@ -13,8 +13,8 @@ function App() {
   useEffect(() => {
     AOS.init({
       duration: 600, // duración de la animación (en ms)
-      once: false,    // si querés que se ejecute solo una vez
-      offset: 80,   // cuándo empieza la animación (en px antes de entrar)
+      once: true,    // si querés que se ejecute solo una vez
+      offset: 50,   // cuándo empieza la animación (en px antes de entrar)
       easing: 'ease-in-out', // curva de animación
     });
   }, []);
